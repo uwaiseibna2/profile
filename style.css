@@ -1,0 +1,212 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+    padding-bottom: 50px;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p, li, a {
+    font-size: 1.1em;
+    color: #555;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Header */
+header {
+    background-color: #055000;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section */
+section {
+    padding: 60px 20px;
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: left;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Centered Text Section */
+.centered-text {
+    text-align: center; /* Center-aligns the text */
+    margin: 20px 0; /* Optional: adds some vertical spacing */
+}
+
+.centered-text h1 {
+    font-size: 2.5em; /* Adjust as needed */
+    color: #333; /* Match your existing styles */
+}
+
+.centered-text h2 {
+    font-size: 1.8em; /* Adjust as needed */
+    color: #055000; /* Match your existing styles */
+}
+
+.centered-text p {
+    font-size: 1.1em; /* Match your existing styles */
+    color: #555; /* Match your existing styles */
+}
+
+/* About Section */
+#about p {
+    text-align: justify;
+    line-height: 1.8;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Experience, Projects, Education, Awards */
+.experience-block, .project-block, .education-block, .award-list {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #055000;
+    text-align: left;
+}
+
+strong {
+    color: #333;
+    text-align: left;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+ul li:before {
+    content: "•";
+    color: #055000;
+    font-weight: bold;
+    width: 10px;
+    text-align: left;
+}
+
+a {
+    color: #055000;
+    text-decoration: none;
+    text-align: left;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #055000;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #c1d6bf;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #055000;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #ccc;
+}
+.centered-footer {
+    text-align: center; /* Center-aligns the footer text */
+    margin: 0; /* Removes default margin */
+    font-size: 1.1em; /* Adjust font size if needed */
+}
